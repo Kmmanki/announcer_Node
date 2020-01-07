@@ -585,7 +585,10 @@
                console.log("로그이웃함");
                location.href = '/logout2';
             })
-            // console.log(socket.emit("logout", getCookie("userName")));
+            
+            $(window).unload(function () {
+               console.log(socket.emit("logout", getCookie("userName")));
+            });
 
 
 

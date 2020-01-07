@@ -1,6 +1,5 @@
 // ===============================================================================
 
-{/* <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.4.5/socket.io.min.js"></script> */}
 // 파일 유효성 검사 function (파일크기, 파일형식)
 // just function 수정 필요 없음. 
 // 파일명에 특문(특히 *, /, -) 걸러주기! 
